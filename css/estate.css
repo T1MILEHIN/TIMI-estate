@@ -1536,26 +1536,29 @@ footer>div.show {
     }
     div.news>div:first-child {
         background-image: url(../image/italy.jpg);
-        background-size: 100%;
+        background-size: cover;
+        background-size: 200%;
         background-repeat: no-repeat;
+        background-position: center;
     }
     div.news>div:nth-child(2){
         background-image: url(../image/eiffel-tower2.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: 200%;
+        background-position: center;
     }
     div.news>div:nth-child(3){
         background-image: url(../image/canada.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-size: 120%;
+        background-size: 300%;
     }
     div.news>div:last-child {
         background-image: url(../image/chilling.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-size: 150%;
+        background-size: 300%;
     }
     div.news>div div {
         max-width: 80vw;
