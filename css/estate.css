@@ -65,6 +65,7 @@ div.hero-nav>div:first-child a {
 
 div.hero-nav>div:first-child a  {
     animation-name: big;
+    -webkit-animation-name: big;
     animation-duration: 4s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -72,6 +73,7 @@ div.hero-nav>div:first-child a  {
 
 div.hero-nav>div:first-child a p.dark {
     animation-name: dark;
+    -webkit-animation-name: dark;
     animation-duration: 4s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -725,6 +727,7 @@ div.gallery>div div:first-child div {
 
 div.vaca>div:first-child>a:hover h1 {
     animation-name: shakee;
+    -webkit-animation-name: shake;
     animation-duration: 300ms;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -1369,6 +1372,10 @@ footer>div.show {
         transform:translateX(0px);
     }
     
+    div.hero-nav {
+        width: 100vw;
+    }
+    
     div.hero-nav div:nth-child(3) {
         display: none;
     }
@@ -1521,6 +1528,7 @@ footer>div.show {
     }
     div.news>div:first-child {
         animation-name: move-1;
+        -webkit-animation-name: move-1;
         animation-duration: 20s;
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
@@ -1535,6 +1543,7 @@ footer>div.show {
     }
     div.news>div:nth-child(2) {
         animation-name: move-1;
+        -webkit-animation-name: move-1;
         animation-duration: 20s;
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
@@ -1542,6 +1551,7 @@ footer>div.show {
     }
     div.news>div:nth-child(3) {
         animation-name: move-1;
+        -webkit-animation-name: move-1;
         animation-duration: 20s;
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
@@ -1550,6 +1560,7 @@ footer>div.show {
     div.news>div:last-child {
         height: fit-content;
         animation-name: move-1;
+        -webkit-animation-name: move-1;
         animation-duration: 15s;
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
