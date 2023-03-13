@@ -13,7 +13,7 @@ body {
 
 html {
     scroll-behavior: smooth;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 h1, span, .hero-nav, i, footer, ul{
     transition: all 500ms ease-in-out;
