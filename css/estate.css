@@ -1379,6 +1379,7 @@ footer>div.show {
         top: 0;
         left: 0;
         right: 0;
+        overflow: hidden;
     }
     
     div.hero-nav div:nth-child(3) {
