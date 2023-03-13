@@ -1531,46 +1531,6 @@ footer>div.show {
     div.news>div>div h2 {
         font-weight: 900;
     }
-    div.news>div:first-child {
-        animation-name: move-1;
-        -webkit-animation-name: move-1;
-        animation-duration: 20s;
-        animation-timing-function: ease-in-out;
-        animation-iteration-count: infinite;
-        animation-direction: reverse;
-    }
-    @keyframes move-1 {
-        0% {background-position: top;}
-        25% {background-position: left;}
-        50% {background-position: bottom;}
-        75% {background-position: right;}
-        100% {background-position: top;}
-    }
-    div.news>div:nth-child(2) {
-        animation-name: move-1;
-        -webkit-animation-name: move-1;
-        animation-duration: 20s;
-        animation-timing-function: ease-in-out;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
-    }
-    div.news>div:nth-child(3) {
-        animation-name: move-1;
-        -webkit-animation-name: move-1;
-        animation-duration: 20s;
-        animation-timing-function: ease-in-out;
-        animation-iteration-count: infinite;
-        animation-direction: alternate-reverse;
-    }
-    div.news>div:last-child {
-        height: fit-content;
-        animation-name: move-1;
-        -webkit-animation-name: move-1;
-        animation-duration: 15s;
-        animation-timing-function: ease-in-out;
-        animation-iteration-count: infinite;
-        animation-direction: reverse;
-    }
     div.news>div img {
         display: none;
     }
@@ -1584,19 +1544,18 @@ footer>div.show {
         background-size: cover;
         background-repeat: no-repeat;
         background-size: 200%;
-        animation-delay: 2s;
     }
     div.news>div:nth-child(3){
         background-image: url(../image/canada.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-size: 400%;
+        background-size: 200%;
     }
     div.news>div:last-child {
         background-image: url(../image/chilling.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-size: 400%;
+        background-size: 200%;
     }
     div.news>div div {
         max-width: 80vw;
