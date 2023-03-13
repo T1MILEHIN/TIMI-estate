@@ -1374,6 +1374,10 @@ footer>div.show {
     
     div.hero-nav {
         width: 100vw;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
     }
     
     div.hero-nav div:nth-child(3) {
